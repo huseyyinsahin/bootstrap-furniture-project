@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #e6ae86 !important;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.card-img-top {
+  height: 200px;
+}
+.bg-custom {
+  background-color: #e6ae86 !important;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide-in-left {
+  animation: slideInLeft 2s forwards;
+}
+.hidden {
+  opacity: 0;
+}

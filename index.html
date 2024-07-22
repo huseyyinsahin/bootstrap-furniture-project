@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mobilya</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3 text-light fw-bold" href="#">Mobilya</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="#carouselExampleIndicators"
+                >Görseller</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#menu-con">Ürünlerimiz</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Arama"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Arama</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <section class="py-5 element hidden">
+      <div class="container">
+        <h2 class="text-center text-dark">Haftalık Öne Çıkan Ürünler</h2>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card bg-custom text-white">
+              <img src="img/mob4.jpg" class="card-img-top" alt="Ürün 1" />
+              <div class="card-body">
+                <h5 class="card-title">Mutfak</h5>
+                <p class="card-text">Yeni Ürünler Satışta!</p>
+                <a href="#" class="btn btn-outline-light">Detayları Gör</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card bg-custom text-white">
+              <img src="img/mob1.jpg" class="card-img-top" alt="Ürün 2" />
+              <div class="card-body">
+                <h5 class="card-title">Yeni Koltuklar</h5>
+                <p class="card-text">Yeni Ürünler Satışta!</p>
+                <a href="#" class="btn btn-outline-light">Detayları Gör</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card bg-custom text-white">
+              <img src="img/mob6.jpg" class="card-img-top" alt="Ürün 3" />
+              <div class="card-body">
+                <h5 class="card-title">Çocuk Odası</h5>
+                <p class="card-text">Yeni Ürünler Satışta!</p>
+                <a href="#" class="btn btn-outline-light">Detayları Gör</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero bg-custom-brown text-center py-5 element hidden">
+      <div class="container">
+        <h1 class="display-4">Hoş Geldiniz</h1>
+        <p class="lead">En kaliteli mobilyalar burada</p>
+      </div>
+    </section>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel container element hidden"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/img1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/img2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/img3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container my-5 element hidden" id="menu-con">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card bg-custom">
+            <img src="img/mob1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Koltuk Takımı</h5>
+              <a class="btn btn-outline-dark">Detayları Gör</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-custom">
+            <img src="img/mob2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Dolap</h5>
+              <a class="btn btn-outline-dark">Detayları Gör</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-custom">
+            <img src="img/mob3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Yatak Odası</h5>
+              <a class="btn btn-outline-dark">Detayları Gör</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-custom">
+            <img src="img/mob4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Mutfak</h5>
+              <a class="btn btn-outline-dark">Detayları Gör</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-custom">
+            <img src="img/mob5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Çocuk Odası</h5>
+              <a class="btn btn-outline-dark">Detayları Gör</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-custom">
+            <img src="img/mob6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Çocuk Odası</h5>
+              <a class="btn btn-outline-dark">Detayları Gör</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="py-5 element hidden">
+      <div class="container">
+        <h2 class="text-center text-dark">Sıkça Sorulan Sorular</h2>
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Teslimat süresi ne kadar?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Teslimat süremiz genellikle 3-5 iş günü arasındadır.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Ürünlerinizin garantisi var mı?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Evet, tüm ürünlerimiz 2 yıl garanti kapsamındadır.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light py-5 element hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <h2 class="text-dark">Hakkımızda</h2>
+            <p class="text-muted">
+              Biz, kaliteli mobilyalar sunmayı hedefleyen bir mobilya
+              şirketiyiz. Müşteri memnuniyeti ve üstün hizmet anlayışımızla
+              sizlere en iyi ürünleri sunuyoruz.
+            </p>
+            <img src="img/mob3.jpg" class="img-fluid h-50" alt="Hakkımızda" />
+          </div>
+          <div class="col-lg-6">
+            <div class="container">
+              <h2 class="text-center text-dark">Bize Ulaşın</h2>
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Adınız</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Adınız"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">E-posta</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="E-posta"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Mesajınız</label>
+                  <textarea
+                    style="resize: none"
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                    placeholder="Mesajınız"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-custom text-white">
+                  Gönder
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-custom text-center py-4">
+      <div class="container">
+        <p class="mb-0">&copy; 2024 Mobilya. Tüm Hakları Saklıdır.</p>
+        <ul class="list-unstyled d-flex justify-content-center mt-3">
+          <li class="mx-3">
+            <a href="#" class="text-decoration-none">Facebook</a>
+          </li>
+          <li class="mx-3">
+            <a href="#" class="text-decoration-none">Twitter</a>
+          </li>
+          <li class="mx-3">
+            <a href="#" class="text-decoration-none">Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
